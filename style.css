@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+     background-color: #faf1eb;
+      margin: 0; /* Remove default margin */
+      height: 100vh; /* Make the body take up the full height of the viewport */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+    }
+
+    .centered-image {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+        
+    }
+
+button {
+    position: absolute;
+    top: 550px;
+    left: 570px;
+    background-color: #f9a9d0; /* Beige color */
+    color: #000; /* Text color */
+    border: 1px solid #000;
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+}
+
+img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove any default inline styles */
+}
